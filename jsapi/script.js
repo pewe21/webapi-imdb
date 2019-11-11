@@ -13,7 +13,6 @@ function cari() {
                 let isi = hasil.Search;
                 // console.log(isi);
                 $.each(isi, function (i, data) {
-
                     $('#movie-list').append(`
                     <div class="col-md-4">
                         <div class="card mb-3">
@@ -27,7 +26,6 @@ function cari() {
                     </div>
                     `)
                     $('#search-input').val('');
-
                 })
             } else {
                 $('#movie-list').html(`
